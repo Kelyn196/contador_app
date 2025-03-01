@@ -19,7 +19,7 @@ class _contadorState extends State<contador> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Cantidad de Clicks'), //Texto a mostrar
+            Text('Clicks'), //Texto a mostrar
             Text(
               '$clickcontador',
               style: TextStyle(fontSize: 150, fontWeight: FontWeight.w100),
